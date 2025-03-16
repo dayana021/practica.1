@@ -4,49 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Platos Fuertes - Restaurante Xejasmin</title>
+    <link rel="stylesheet" href="../styles.css"> <!-- Enlace al archivo CSS externo -->
 </head>
 <body>
-    <h1>Platos Fuertes</h1>
-    <table border="1" cellpadding="10" cellspacing="0">
-        <tr>
-            <td>
-                <img src="/imagenes/ribeye.jpg" alt="Ribeye">
-                <h2>Ribeye a la Parrilla</h2>
-                <p><em>Jugoso ribeye a la parrilla con hierbas y mantequilla.</em></p>
-                <p><strong>Precio:</strong> Q85.00</p>
-            </td>
-            <td>
-                <img src="/imagenes/salmon.jpg" alt="Salmón">
-                <h2>Salmón al Limón</h2>
-                <p>Salmón a la plancha con salsa de limón y eneldo.</p>
-                <p><strong>Precio:</strong> Q90.00</p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <img src="/imagenes/fettuccine.jpg" alt="Fettuccine">
-                <h2>Fettuccine Alfredo</h2>
-                <p>Pasta fettuccine con cremosa salsa Alfredo y queso parmesano.</p>
-                <p><strong>Precio:</strong> Q70.00</p>
-            </td>
-            <td>
-                <img src="/imagenes/chuletas.jpg" alt="Chuletas de Cerdo">
-                <h2>Chuletas de Cerdo a la Barbacoa</h2>
-                <p>Chuletas de cerdo a la barbacoa con salsa BBQ.</p>
-                <p><strong>Precio:</strong> Q75.00</p>
-            </td>
-        </tr>
-        <tr>
-            <td colspan="2">
-                <img src="/imagenes/paella.jpg" alt="Paella">
-                <h2>Paella Valenciana</h2>
-                <p>Tradicional paella valenciana con mariscos frescos y azafrán.</p>
-                <p><strong>Precio:</strong> Q95.00</p>
-            </td>
-        </tr>
-    </table>
-    <a href="/index.html">
-        <button>Inicio</button>
-    </a>
+    <header>
+        <h1>Restaurante Xejasmin</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../menu/Platos_fuertes.html">Platos Fuertes</a></li>
+                <li><a href="../menu/postres.html">Postres</a></li>
+                <li><a href="../personal/personal.html">Personal</a></li>
+                <li><a href="../reseña/reseña.html">Comentarios</a></li>
+                <li><a href="../receta/receta_salada.html">Recetas Saladas</a></li>
+                <li><a href="../receta/receta_dulce.html">Receta Dulce</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Platos Fuertes</h1>
+        
+        <table class="platos-table">
+            <tr>
+                <td>
+                    <div class="plato-item">
+                        <img src="../imagenes/ribeye.jpg" alt="Ribeye">
+                        <h2>Ribeye a la Parrilla</h2>
+                        <p><em>Jugoso ribeye a la parrilla con hierbas y mantequilla.</em></p>
+                        <p><strong>Precio:</strong> Q85.00</p>
+                    </div>
+                </td>
+                <td>
+                    <div class="plato-item">
+                        <img src="../imagenes/salmon.jpg" alt="Salmón">
+                        <h2>Salmón al Limón</h2>
+                        <p>Salmón a la plancha con salsa de limón y eneldo.</p>
+                        <p><strong>Precio:</strong> Q90.00</p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="plato-item">
+                        <img src="../imagenes/fettuccine.jpg" alt="Fettuccine">
+                        <h2>Fettuccine Alfredo</h2>
+                        <p>Pasta fettuccine con cremosa salsa Alfredo y queso parmesano.</p>
+                        <p><strong>Precio:</strong> Q70.00</p>
+                    </div>
+                </td>
+                <td>
+                    <div class="plato-item">
+                        <img src="../imagenes/chuletas.jpg" alt="Chuletas de Cerdo">
+                        <h2>Chuletas de Cerdo a la Barbacoa</h2>
+                        <p>Chuletas de cerdo a la barbacoa con salsa BBQ.</p>
+                        <p><strong>Precio:</strong> Q75.00</p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <div class="plato-item">
+                        <img src="../imagenes/paella.jpg" alt="Paella">
+                        <h2>Paella Valenciana</h2>
+                        <p>Tradicional paella valenciana con mariscos frescos y azafrán.</p>
+                        <p><strong>Precio:</strong> Q95.00</p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Restaurante Xejasmin </p>
+    </footer>
 </body>
 </html>
